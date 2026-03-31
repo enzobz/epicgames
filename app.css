@@ -25,7 +25,7 @@ header {
 
 .container {
   margin: 0 auto;
-  width: 1600px;
+  width: 1440px;
 }
 
 .nav-left {
@@ -217,8 +217,26 @@ header {
 }
 
 
+.discover-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  color: #fff;
+}
 
-.banner-content-inner__info
+.discover-inner__image {
+  display: flex;
+  min-width: 0;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.discover-inner__image img {
+  flex: 1 1 auto;
+  min-width: 0;
+  border-radius: 10px;
+}
 
 .store-nav__tab--active {
   color: #fff;
